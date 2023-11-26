@@ -2,6 +2,7 @@ const humburger=document.querySelector('.hamburger')
 // const navtwo=document.querySelector('.nav-menu')
 //  const hum=document.querySelector('.nav-menu')
 const navMenu= document.querySelector('.nav-menu')
+
 humburger.addEventListener('click',()=>{
     humburger.classList.toggle('active')
     navMenu.classList.toggle('active');
